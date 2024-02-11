@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 62.5%;
+}
+/* background arrangement */
+body {
+  background: url(/images/about.jpg) no-repeat center center fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+/* title decoration */
+.about-wsl {
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: rgb(252, 225, 202);
+  padding-top: 5%;
+  padding-left: 5%;
+}
+/* p-about decoration */
+.about {
+  margin: auto auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-left: 5%;
+
+  width: 90%;
+  color: white;
+  font-size: 2.5rem;
+}
+
+p {
+  color: rgb(245, 245, 244);
+  line-height: 4rem;
+  margin: auto auto;
+  padding: 3rem;
+  width: 90%;
+  font-size: 3rem;
+  font-weight: 900;
+}
+/* image arrangement */
+img {
+  width: 40px;
+  height: 40px;
+  margin: 5%;
+}
+
+/* social media arrangment */
+.nav-footer {
+  width: 90%;
+  margin: 5% auto;
+}
+
+/* smartphones relevance */
+
+@media (max-width: 900px) {
+  .about {
+    width: 90%;
+    transition: 0.5s;
+  }
+
+  p {
+    font-size: 1.8rem;
+    transition: 0.5s;
+    width: 90%;
+    padding: 2rem;
+    transition: 0.5s;
+  }
+}

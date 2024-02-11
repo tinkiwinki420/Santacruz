@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 62.5%;
+}
+
+/* navigation bar arrangement */
+header {
+  display: flex;
+  width: 100%;
+}
+/* title decoration */
+.title {
+  display: flex;
+  font-family: "Abril Fatface";
+  font-size: 4.6rem;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgb(242, 135, 41);
+  padding: 1rem;
+  width: 100%;
+}
+
+.menu {
+  display: inline-block;
+  position: relative;
+  text-align: end;
+  padding: 10px 15px;
+}
+
+.santa {
+  color: rgb(227, 211, 211);
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 70px;
+  font-size: 2.5rem;
+  display: block;
+}
+.ru {
+  text-transform: lowercase;
+}
+/* region links */
+li {
+  list-style: none;
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+li a {
+  color: wheat;
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+  padding: 1rem 5px;
+  font-size: 2.3rem;
+  color: aliceblue;
+  background-color: rgb(206, 178, 178);
+}
+
+li a:hover,
+li a:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #333;
+  border-radius: 50%;
+}
+
+.one {
+  background-color: rgb(52, 121, 181);
+
+  padding-left: 50px;
+}
+.tow {
+  background-color: rgb(59, 86, 154);
+  padding-left: 30px;
+}
+
+.three {
+  background-color: rgb(86, 194, 160);
+  padding-left: 30px;
+}
+.four {
+  background-color: rgb(227, 169, 63);
+  padding-left: 30px;
+}
+/* copyrights decoration */
+.p-footer {
+  position: relative;
+  left: 0;
+  margin-top: 10%;
+  bottom: 0;
+  width: 100%;
+  padding: 2.5rem;
+  color: white;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 2.5rem;
+
+  text-align: center;
+}
+/* smartphones relevance */
+@media (max-width: 768px) {
+  .p-footer {
+    font-size: 1.8rem;
+    padding: 1rem;
+    transition: 1s;
+    position: relative;
+  }
+}

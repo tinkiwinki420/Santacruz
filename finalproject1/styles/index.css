@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 62.5%;
+}
+/* background arrangement */
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../images/surfimg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: block;
+}
+
+/*quotes box arrangement  */
+.container-quotes {
+  display: block;
+  width: 80%;
+  padding: 5rem;
+  font-size: 6rem;
+
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto auto;
+  margin-top: 20rem;
+}
+/* varibles for common colors*/
+.title-word-1 {
+  color: #3d8dae;
+}
+
+.title-word-2 {
+  color: #17494d;
+}
+
+.title-word-3 {
+  color: #ebd6d6;
+}
+
+.title-word-4 {
+  color: #df8453;
+}
+.title-word-5 {
+  color: #83daa6;
+}
+.title-word-6 {
+  color: #f26529;
+}
+
+/* size decoration */
+.container-video {
+  padding-top: 30.25%;
+}
+.video {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+
+  object-fit: cover;
+}
+
+.footer-button {
+  display: block;
+  position: relative;
+  color: white;
+  margin-top: 1rem;
+  text-align: center;
+ 
+  padding: 2.5rem;
+  border-radius: 40px;
+  margin: 15rem 35%;
+  border: none;
+  min-width: 30%;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-color: rgba(68, 62, 54, 0.6);
+}
+
+.p-subscribe {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: 900;
+  padding: 10px;
+  text-transform: uppercase;
+  color: rgb(68, 62, 54);
+}
+.footer-button:hover {
+  background-color: rgba(238, 186, 53, 0.6);
+  color: #333;
+  cursor: pointer;
+}
+/* smartphones relevance */
+@media (max-width: 768px) {
+  .p-subscribe {
+    font-size: 2rem;
+    transition: 1s;
+  }
+  .footer-button {
+    margin-top: 1rem;
+    margin: auto auto ;
+    margin-top: 10%;
+    padding: 2rem;
+    border-radius: 20px;
+    border: none;
+    max-width: 70%;
+    white-space: nowrap;
+
+    font-size: 1rem;
+    transition: 1s;
+  }
+
+  .container-quotes {
+    font-size: 4rem;
+    transition: 1s;
+    max-width: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .title-word-1 {
+    color: rgb(37, 151, 159);
+    transition: 1s;
+  }
+
+  .title-word-2 {
+    color: #3d8dae;
+    transition: 1s;
+  }
+
+  .title-word-3 {
+    color: #df8453;
+    transition: 1s;
+  }
+
+  .title-word-4 {
+    color: rgb(197, 218, 220);
+    transition: 1s;
+  }
+}
